@@ -10,8 +10,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world action step
-#        uses: ./ # Uses an action in the root directory
-        uses: cams7-tests/hello-world-docker-action@v1
+        uses: ./ # Uses an action in the root directory
+#        uses: cams7-tests/hello-world-docker-action@v1
         id: hello
         with:
           who-to-greet: 'César A Magalhães'
